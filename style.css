@@ -1,3 +1,76 @@
 body {
-    background-color: lightblue;
+    background: linear-gradient(135deg, #01110F, 35%, #090737);
+    color: whitesmoke;
+    margin: 80px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.logo {
+    background-color: whitesmoke;
+    color: #000;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1B1B1E;
+    width: 40%;
+    right: 0;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 2px 3px rgba(245, 245, 245, 0.251);
+}
+
+.navbar button {
+    background: none;
+    color: white;
+    border: none;
+}
+
+.navbar button:hover {
+    text-decoration: underline;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+}
+
+.hero-text h1 {
+    margin: 20px 0;
+    font-size: 82px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+}
+
+
+.detail {
+    min-height: 50vh;
+}
+
+.detail img {
+    position: absolute;
+    transform: scale(.7);
+    margin-left: 50px;
+    right: 5%;
+    top: -20%;
+    z-index: -1;
+}
+
+.detail p {
+    width: 55%;
+    font-size: 16px;
+    line-height: 25px;
 }
