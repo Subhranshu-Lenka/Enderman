@@ -1,1 +1,1 @@
-alert("Let's go.");
+// alert("Let's go.");
